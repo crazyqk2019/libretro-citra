@@ -108,7 +108,7 @@ else()
     add_compile_options(
         -Wall
         # In case a flag isn't supported on e.g. a certain architecture, don't error.
-        -Wno-unused-command-line-argument
+        # -Wno-unused-command-line-argument
         # Build fortification options
         -Wp,-D_FORTIFY_SOURCE=2
         -fstack-protector-strong
