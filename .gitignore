@@ -63,3 +63,5 @@ obj/
 libs/
 
 VULKAN_SDK/
+/ucrt64_build
+/vc_build
